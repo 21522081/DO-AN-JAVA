@@ -67,12 +67,12 @@ public class template extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jPanel4.setBackground(new java.awt.Color(51, 51, 51));
-        jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 153, 51)));
+        jPanel4.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel4.setForeground(new java.awt.Color(51, 102, 255));
         jPanel4.setLayout(null);
 
-        btnNV.setBackground(new java.awt.Color(51, 51, 51));
+        btnNV.setBackground(new java.awt.Color(0, 0, 0));
         btnNV.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnNV.setForeground(new java.awt.Color(255, 255, 255));
         btnNV.setText("Nhân viên");
@@ -85,7 +85,7 @@ public class template extends javax.swing.JFrame {
         jPanel4.add(btnNV);
         btnNV.setBounds(0, 170, 160, 40);
 
-        btnKH.setBackground(new java.awt.Color(51, 51, 51));
+        btnKH.setBackground(new java.awt.Color(0, 0, 0));
         btnKH.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnKH.setForeground(new java.awt.Color(255, 255, 255));
         btnKH.setText("Khách hàng");
@@ -98,7 +98,7 @@ public class template extends javax.swing.JFrame {
         jPanel4.add(btnKH);
         btnKH.setBounds(0, 210, 160, 40);
 
-        btnPhong.setBackground(new java.awt.Color(51, 51, 51));
+        btnPhong.setBackground(new java.awt.Color(0, 0, 0));
         btnPhong.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnPhong.setForeground(new java.awt.Color(255, 255, 255));
         btnPhong.setText("Quản lí phòng");
@@ -111,7 +111,7 @@ public class template extends javax.swing.JFrame {
         jPanel4.add(btnPhong);
         btnPhong.setBounds(0, 250, 160, 40);
 
-        btnHoaDon.setBackground(new java.awt.Color(51, 51, 51));
+        btnHoaDon.setBackground(new java.awt.Color(0, 0, 0));
         btnHoaDon.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnHoaDon.setForeground(new java.awt.Color(255, 255, 255));
         btnHoaDon.setText("Hóa đơn");
@@ -124,7 +124,7 @@ public class template extends javax.swing.JFrame {
         jPanel4.add(btnHoaDon);
         btnHoaDon.setBounds(0, 290, 160, 40);
 
-        jButton5.setBackground(new java.awt.Color(51, 51, 51));
+        jButton5.setBackground(new java.awt.Color(0, 0, 0));
         jButton5.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Đăng xuất");
@@ -137,7 +137,7 @@ public class template extends javax.swing.JFrame {
         jPanel4.add(jButton5);
         jButton5.setBounds(0, 330, 160, 40);
 
-        jPanel2.setBackground(new java.awt.Color(51, 51, 51));
+        jPanel2.setBackground(new java.awt.Color(0, 0, 0));
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 153, 0), 2));
         jPanel2.setPreferredSize(new java.awt.Dimension(100, 50));
         jPanel2.setLayout(null);
