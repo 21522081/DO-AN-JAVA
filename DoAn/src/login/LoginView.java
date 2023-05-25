@@ -107,6 +107,11 @@ public class LoginView extends javax.swing.JFrame {
         txtUser.setForeground(new java.awt.Color(255, 255, 255));
         txtUser.setText("Username");
         txtUser.setBorder(null);
+        txtUser.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtUserActionPerformed(evt);
+            }
+        });
 
         txtPassword.setBackground(new java.awt.Color(186, 79, 84));
         txtPassword.setForeground(new java.awt.Color(255, 255, 255));
@@ -288,6 +293,10 @@ public class LoginView extends javax.swing.JFrame {
     }
 
     }//GEN-LAST:event_LoginMouseClicked
+
+    private void txtUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUserActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtUserActionPerformed
 
     /**
      * @param args the command line arguments
